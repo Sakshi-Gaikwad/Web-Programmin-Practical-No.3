@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.image-container {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.image {
+    max-width: 100%;
+    transition: transform 0.9s;
+}
+
+.image:hover {
+    transform: scale(1.5);
+}
+
+
